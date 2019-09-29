@@ -8894,23 +8894,23 @@ button:focus {
 
 .btn.btn-primary {
   color: #fff;
-  background-color: #9c27b0;
+  background: linear-gradient(60deg, #005CD9, #0D3E80);
   border-color: #9c27b0;
   box-shadow: 0 2px 2px 0 rgba(156, 39, 176, 0.14), 0 3px 1px -2px rgba(156, 39, 176, 0.2), 0 1px 5px 0 rgba(156, 39, 176, 0.12);
 }
 
 .btn.btn-primary:hover {
   color: #fff;
-  background-color: #9124a3;
-  border-color: #701c7e;
+  background: linear-gradient(60deg, rgb(11, 52, 110), rgb(31, 73, 129));
+  border-color: #1e1c7e;
 }
 
 .btn.btn-primary:focus,
 .btn.btn-primary.focus,
 .btn.btn-primary:hover {
   color: #fff;
-  background-color: #9124a3;
-  border-color: #701c7e;
+  background: linear-gradient(60deg, rgb(11, 52, 110), rgb(31, 73, 129));
+  border-color: #1e1c7e;
 }
 
 .btn.btn-primary:active,
@@ -8918,8 +8918,8 @@ button:focus {
 .open>.btn.btn-primary.dropdown-toggle,
 .show>.btn.btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #9124a3;
-  border-color: #701c7e;
+  background: linear-gradient(60deg, rgb(11, 52, 110), rgb(31, 73, 129));
+  border-color: #1e1c7e;
   box-shadow: 0 2px 2px 0 rgba(156, 39, 176, 0.14), 0 3px 1px -2px rgba(156, 39, 176, 0.2), 0 1px 5px 0 rgba(156, 39, 176, 0.12);
 }
 
@@ -8936,7 +8936,7 @@ button:focus {
 .show>.btn.btn-primary.dropdown-toggle:focus,
 .show>.btn.btn-primary.dropdown-toggle.focus {
   color: #fff;
-  background-color: #9124a3;
+  background-color: #1249e0;
   border-color: #3f1048;
 }
 
@@ -8946,7 +8946,7 @@ button:focus {
 }
 
 .open>.btn.btn-primary.dropdown-toggle.bmd-btn-icon:hover {
-  background-color: #9124a3;
+  background-color: #1249e0;
 }
 
 .btn.btn-primary.disabled:focus,
@@ -16602,7 +16602,7 @@ footer .pull-center {
 }
 
 .card-login .form {
-  min-height: 300px;
+  min-height: 350px;
 }
 
 .card-login .social-line {
